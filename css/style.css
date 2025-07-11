@@ -112,3 +112,58 @@ a {
 .footer {
   margin-bottom: 50px;
 }
+
+@media (max-width: 1080px) {
+  .container {
+    width: 721px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .video {
+    max-width: 100%;
+  }
+  .menu-list,
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-item {
+    margin: 15px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 721px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .video {
+    max-width: 100%;
+  }
+  .menu-list,
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-item {
+    margin: 15px;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    width: 421px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .video {
+    max-width: 100%;
+  }
+  .menu-list,
+  .footer-list {
+    display: inline-block;
+  }
+  .footer-item {
+    margin: 15px;
+  }
+}
